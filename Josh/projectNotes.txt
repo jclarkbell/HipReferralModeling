@@ -1,0 +1,65 @@
+Reproduced draft from word documents
+compared threshold
+
+OHS if  then
+
+Pre op OHS score has hard boundary between 18 and 30 for getting surgery
+Thoughts:
+- simulate 4 year outcomes on large data sample and then use that for training and smaller sample as test set
+- population simulation of scores < 40 (currently not requiring surgery)
+- examination of rate of decay in patients as mitigating factor for decision/ modeling feature
+- some method of best allocating resources, assuming they are currently inefficient, lagragian/ secondary treatment clustering
+
+
+The use of patient-reported outcome measures to guide referral for hip and knee arthroplasty (price-kang)
+- anthroplasties tend to improve cases quality of life by 10-20%
+- referred after nonoperative care doesn't aleiviate pain
+- OHS completed preoperatively and 6 months post surgery
+- patients with higher scores have less capacity to benefit (proven by Who should have knee joint replacement surgery for osteoarthritis?
+Paul DIEPPE,Keith LIM,Stefan LOHMANDER) "however decision needs to be individualised"
+- no published evidence about what level is best
+- datasets "the NHS patient reported outcome measures (PROMs) dataset 2009-2015 was used
+- can we get the 200,000 patient dataset?? 
+	- http://www.hesonline.nhs.uk/Ease/servlet/ContentServer?siteID=1937%26categoryID=1295
+	- HES APC https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5837677/
+	- National Joint Registry database https://www.datadictionary.nhs.uk/data_sets/clinical_content/national_joint_registry_data_set/national_joint_registry_data_set_-_hip.html
+	- only updated in 2018? https://www.njrcentre.org.uk/healthcare-providers/njr-data-collection-forms-k1-k2-s1-s2-h1-h2-e1-e2-a1-a2/
+	- research@njr.org.uk, Data Access Request Form to fill out
+- fractional polynomial logit reg used, AUC calculated to determine discrimination - covariates used were: age, sex, 12 patient reported comorbities (heart diseas, high blood pressure, problems caused by stroke, ...)
+- Quantile regression, had a third degree polynomial form and robust variances, probability of meaningful improvement calculated in percentiles, "GIVEN THE VERY LARGE SIZE OF THE AVAILABLE DATASET"
+- "above 40 there is by definition a zero probability of meaningful improvement, since these patients cannot achieve an eight point improvement on the 48-point prob scale" - where 8 points is consituted as meaningful improvement
+
+
+Arthiritis research UK
+- 1 in 9 adutlts over the age of 45 has osteoarthiritis of the hip (10-12% depending on local authority)
+- indicators: 
+	- excess weight, active and inactive percentages, smoking
+- risk factors: increasing age, female sex, genetic factors and previous joint injury, obesity
+- 
+
+Exeter study:
+- smaller dataset but longer evaluation period
+
+The use of patient-reported outcome measures to guide referral for hip and knee anthroplasty:
+- cost of nonsurgerical treatment vs surgical treatment
+- base case analysis score of 45/48
+
+Finish the above and go through ACHE - gain ONS data
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
